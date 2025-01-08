@@ -39,8 +39,8 @@ Ensure you have an active AWS account to access the necessary services.
 
 ### Step 2: Create S3 Buckets
 
-- **Source Bucket Name:** `source-polly`
-- **Destination Bucket Name:** `destination-polly`
+- **Source Bucket Name:** `amc-polly-source-bucket3`
+- **Destination Bucket Name:** `amc-polly-destination-bucket3`
 
 ### Step 3: Configure IAM Policy
 
@@ -57,8 +57,8 @@ Create an IAM policy with the following permissions:
               "s3:PutObject"
           ],
           "Resource": [
-              "arn:aws:s3:::source-polly/*",
-              "arn:aws:s3:::destination-polly/*"
+              "arn:aws:s3:::amc-polly-source-bucket3/*",
+              "arn:aws:s3:::amc-polly-destination-bucket3/*"
           ]
       },
       {
@@ -85,8 +85,8 @@ Create an IAM policy with the following permissions:
 2. **Runtime:** Python 3.9
 3. **Execution Role:** Use the role created in Step 4.
 4. **Environment Variables:**
-   - `SOURCE_BUCKET`: `source-polly`
-   - `DESTINATION_BUCKET`: `destination-polly`
+   - `SOURCE_BUCKET`: `amc-polly-source-bucket3`
+   - `DESTINATION_BUCKET`: `amc-polly-destination-bucket3`
 
 ### Step 6: Configure S3 Event Notification
 
