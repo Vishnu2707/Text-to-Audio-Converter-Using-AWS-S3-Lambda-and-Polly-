@@ -177,4 +177,3 @@ Upload a `.txt` file to the source bucket and verify that the corresponding `.mp
 ## Conclusion
 
 This project is a practical example of leveraging AWS services to create an innovative, accessible, and scalable solution for converting text content into audio. It highlights the value of serverless technologies in streamlining processes and delivering impactful solutions.
-```
