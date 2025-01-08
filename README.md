@@ -19,6 +19,8 @@ This solution adds value in **infrastructure management services** by showcasing
 
 ## Architecture
 
+<img width="801" alt="Screenshot 2025-01-08 at 10 01 40 PM" src="https://github.com/user-attachments/assets/c8fca8aa-cdd4-4282-8ebd-b10030ae7087" />
+
 ### Overview
 
 - **Source S3 Bucket:** Stores the text files to be converted.
